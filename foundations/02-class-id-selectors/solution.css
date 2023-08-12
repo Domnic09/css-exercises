@@ -1,0 +1,18 @@
+.num{
+    background-color: pink;
+    color: black;
+    font-size: 30px;
+}
+#num2{
+    color: blue;
+    font-size: 70px;
+}
+.adjust-font-size{
+   background-color: pink; 
+   font-size: 50px;
+}
+#num4{
+    font: bold;
+    font-size: 40px;
+    background-color: aquamarine;
+}
