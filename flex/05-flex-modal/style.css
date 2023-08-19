@@ -20,7 +20,25 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* display: flex;
+  padding: 10px;
+  flex-wrap: nowrap; */
 }
+/* div.text{
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  padding: 1px;
+  flex-wrap: wrap;
+
+}
+div.header{
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+} */
+
 
 .icon {
   color: royalblue;
@@ -48,6 +66,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+
 }
 
 button {
@@ -60,10 +79,44 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: auto;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+/* .info{
+  display: flex;
+  flex-direction: column;
+ margin: 20px;
+}
+.but{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+} */
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+  /* flex-grow: 1; */
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.text {
+  margin-bottom: 16px;
 }
